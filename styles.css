@@ -2,6 +2,7 @@
 
 .principal {
    background-image: linear-gradient(to bottom, #EBE815, #8FE600);
+background-attachment: fixed;
    
 }
 
@@ -37,6 +38,7 @@ a {
 
 .secundario {
    background-image: linear-gradient(to bottom, #EB9A15, #EBB315);
+background-attachment: fixed;
 }
 
 .botao {
