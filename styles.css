@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
 
+html {
+   height: 100%;
+}
 
 .principal {
    background-image: linear-gradient(to bottom, #EBE815, #8FE600);
-background-attachment: fixed;
-   
+   background-attachment: fixed;
+   display:block; 
+   border-left: #8862f0be solid 5px  ; height: 98%; margin-left: 20em;
+   border-right: #8862f0be solid 5px  ; height: 98%; margin-right: 20em;
 }
 
 .Titulo {
@@ -11,11 +17,11 @@ background-attachment: fixed;
  font-size: 38 px;
  border-radius: 10px;
  padding: 10px;
- color: #ffffff;
- font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-background-color: rgb(176, 179, 45);
+ color: #ffffff; 
+background-color: #8862f0be;
 width:600px;
 margin: auto;
+font-family: "Exo 2", sans-serif;;
 }
 
 .imagens {
@@ -38,7 +44,7 @@ a {
 
 .secundario {
    background-image: linear-gradient(to bottom, #EB9A15, #EBB315);
-background-attachment: fixed;
+   background-attachment: fixed;
 }
 
 .botao {
@@ -48,14 +54,8 @@ background-attachment: fixed;
 background-color: rgba(134, 99, 0, 0.288);
 margin: auto;
 width: 200px;
-
 }
 
-.vertical-line { border-left: 2px solid black; /* Define a largura e a cor da linha */ height: 550px; /* Altura da linha */ margin-left: 200px; /* Espaçamento à esquerda */ }
-
-.vertical-line2 { border-left: 2px solid black; /* Define a largura e a cor da linha */ height: 40px; /* Altura da linha */ margin-left: 200px; /* Espaçamento à esquerda */ }
 
 
-.vertical-line { border-right: 2px solid black; /* Define a largura e a cor da linha */ height: 550px; /* Altura da linha */ margin-right: 200px; /* Espaçamento à esquerda */ }
 
-.vertical-line2 { border-right: 2px solid black; /* Define a largura e a cor da linha */ height: 40px; /* Altura da linha */ margin-right: 200px; /* Espaçamento à esquerda */ }
